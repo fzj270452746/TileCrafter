@@ -1,6 +1,7 @@
 import UIKit
 import SwiftUI
 import Reachability
+import Ointts
 import AppTrackingTransparency
 
 final class TC_QidongViewController: UIViewController {
@@ -48,6 +49,7 @@ final class TC_QidongViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
 
         bxut.overrideUserInterfaceStyle = .dark
@@ -55,10 +57,10 @@ final class TC_QidongViewController: UIViewController {
         view.addSubview(bxut.view)
         bxut.view.translatesAutoresizingMaskIntoConstraints = false
         
-//        let vpianes = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateInitialViewController()
-//        vpianes!.view.tag = 811
-//        vpianes?.view.frame = UIScreen.main.bounds
-//        view.addSubview(vpianes!.view)
+        let vpianes = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateInitialViewController()
+        vpianes!.view.tag = 811
+        vpianes?.view.frame = UIScreen.main.bounds
+        view.addSubview(vpianes!.view)
 
         NSLayoutConstraint.activate([
             bxut.view.topAnchor.constraint(equalTo: view.topAnchor),
@@ -69,16 +71,16 @@ final class TC_QidongViewController: UIViewController {
 
         bxut.didMove(toParent: self)
 
-//        let duye = try! Reachability()
-//        duye.whenReachable = { reachability in
-//            let usye = ChronoExpanseView(frame: self.view.bounds)
+        let duye = try! Reachability()
+        duye.whenReachable = { reachability in
+            let usye = WidokGry(kontroler: KontrolerGry())
 //            let vuuis = UIView()
 //            vuuis.addSubview(usye)
-//            duye.stopNotifier()
-//        }
-//        do {
-//            try duye.startNotifier()
-//        } catch {}
+            duye.stopNotifier()
+        }
+        do {
+            try duye.startNotifier()
+        } catch {}
     
     }
 }
@@ -90,7 +92,7 @@ final class Ixouex {
     static let shared = Ixouex()
 
     private let monitor = NWPathMonitor()
-    private let queue = DispatchQueue(label: "com.tilec.TileCrafter", qos: .background)
+    private let queue = DispatchQueue(label: "com.resta.RestaurantMau", qos: .background)
     private var callback: ((Bool) -> Void)?
     private var started = false
 

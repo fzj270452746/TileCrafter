@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286FF10D2FBAA8D9007EEAA8 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 286FF10C2FBAA8D9007EEAA8 /* AppsFlyerLib-Static */; };
 		83B6DD19A74EE8D2A4B13A7D /* Pods_TileCrafter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63665132BE5FCE8E90C1F131 /* Pods_TileCrafter.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B6DD19A74EE8D2A4B13A7D /* Pods_TileCrafter.framework in Frameworks */,
+				286FF10D2FBAA8D9007EEAA8 /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +137,7 @@
 			mainGroup = 28B054272FB6C8F9006FDC30;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				286FF10B2FBAA8D9007EEAA8 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 28B054312FB6C8F9006FDC30 /* Products */;
@@ -241,7 +244,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tilec.TileCrafter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -283,7 +286,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tilec.TileCrafter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -438,6 +441,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		286FF10B2FBAA8D9007EEAA8 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		286FF10C2FBAA8D9007EEAA8 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 286FF10B2FBAA8D9007EEAA8 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 28B054282FB6C8F9006FDC30 /* Project object */;
 }

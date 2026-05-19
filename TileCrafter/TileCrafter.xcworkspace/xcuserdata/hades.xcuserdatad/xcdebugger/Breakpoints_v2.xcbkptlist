@@ -7,94 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "26C38F90-1D28-47B7-8D9B-70D7CD935B3A"
+            uuid = "85E623C7-BEAC-47EE-80A5-F3A5C2304519"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TileCrafter/New Group 3/ChronoExpanseView.swift"
+            filePath = "TileCrafter/New Group 3/WidokGry.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "297"
-            endingLineNumber = "297"
-            landmarkName = "tickOfDecay()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A0BE43D1-DB81-4B04-927B-AA3999CF1B07"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TileCrafter/TC_QidongViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "viewDidAppear(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A0BE43D1-DB81-4B04-927B-AA3999CF1B07 - c3ad2670091df246"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TileCrafter.TC_QidongViewController.viewDidAppear(Swift.Bool) -&gt; ()"
-                  moduleName = "TileCrafter.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hades/Desktop/Code/26/05/0517%E9%BA%BB/7/git/TileCrafter/TileCrafter/TileCrafter/TC_QidongViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44">
-               </Location>
-               <Location
-                  uuid = "A0BE43D1-DB81-4B04-927B-AA3999CF1B07 - 781db91905bd161a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in TileCrafter.TC_QidongViewController.viewDidAppear(Swift.Bool) -&gt; ()"
-                  moduleName = "TileCrafter.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hades/Desktop/Code/26/05/0517%E9%BA%BB/7/git/TileCrafter/TileCrafter/TileCrafter/TC_QidongViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "45"
-                  endingLineNumber = "45">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E27103B5-0143-4454-9974-E7FD43535715"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TileCrafter/TC_QidongViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BDDD2CEB-2463-44F8-AB62-2BD354FD3265"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TileCrafter/SceneDelegate.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "scene(_:willConnectTo:options:)"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "init(kontroler:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
