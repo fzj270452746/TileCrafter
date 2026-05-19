@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcrun xcodebuild *)",
+      "Bash(xcodebuild -project ../TileCrafter.xcodeproj -scheme TileCrafter -sdk iphonesimulator -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 15' build)",
+      "Bash(xcodebuild -project TileCrafter.xcodeproj -scheme TileCrafter -sdk iphonesimulator -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 15' build)",
+      "Bash(xcodebuild -project /Users/hades/Desktop/Code/26/待用/mah/0515-2/TileCrafter/TileCrafter.xcodeproj -scheme TileCrafter -sdk iphonesimulator -configuration Debug -destination 'generic/platform=iOS Simulator' build)"
+    ]
+  }
+}
