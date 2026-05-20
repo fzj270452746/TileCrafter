@@ -8,5 +8,4 @@ target 'TileCrafter' do
   # Pods for TileCrafter
   pod 'ReachabilitySwift'
   pod 'SnapKit'
-  pod 'Kingfisher'
 end
